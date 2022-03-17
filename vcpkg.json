@@ -1,0 +1,9 @@
+{
+    "name": "plugin-architecture-sample",
+    "version-string": "0.0.1-alpha+1",
+    "dependencies": [
+        "fmt",
+        "spdlog",
+        "expected-lite"
+    ]
+}

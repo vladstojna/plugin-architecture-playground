@@ -1,0 +1,29 @@
+﻿{
+    "version": 2,
+    "configurePresets": [
+        {
+            "name": "windows-default",
+            "displayName": "Windows x64 Debug",
+            "description": "Target Windows with the Visual Studio development environment.",
+            "generator": "Ninja",
+            "binaryDir": "${sourceDir}/out/build/${presetName}",
+            "architecture": {
+                "value": "x64",
+                "strategy": "external"
+            },
+            "cacheVariables": {
+                "CMAKE_CXX_COMPILER": "cl",
+                "CMAKE_BUILD_TYPE": "Debug",
+                "CMAKE_INSTALL_PREFIX": "${sourceDir}/out/install/${presetName}",
+                "CMAKE_TOOLCHAIN_FILE": {
+                    "value": "$env{VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake",
+                    "type": "FILEPATH"
+                }
+            },
+            "environment": {
+                "VCPKG_FEATURE_FLAGS": "manifests,versions,binarycaching,registries"
+            },
+            "vendor": { "microsoft.com/VisualStudioSettings/CMake/1.0": { "hostOS": [ "Windows" ] } }
+        }
+    ]
+}
