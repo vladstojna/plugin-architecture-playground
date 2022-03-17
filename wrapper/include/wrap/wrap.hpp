@@ -1,0 +1,20 @@
+#pragma once
+
+#include <wrap/action.hpp>
+#include <wrap/action_descriptor.hpp>
+#include <wrap/action_event.hpp>
+#include <wrap/action_executor.hpp>
+#include <wrap/basic_descriptor.hpp>
+#include <wrap/error.hpp>
+#include <wrap/error_descriptor.hpp>
+#include <wrap/nothrow.hpp>
+#include <wrap/passkey.hpp>
+#include <wrap/payload.hpp>
+#include <wrap/plugin.hpp>
+#include <wrap/plugin_attributes.hpp>
+#include <wrap/plugin_configurator.hpp>
+#include <wrap/plugin_descriptor.hpp>
+#include <wrap/plugin_object.hpp>
+#include <wrap/plugin_version.hpp>
+#include <wrap/rcstring.hpp>
+#include <wrap/visibility.hpp>
