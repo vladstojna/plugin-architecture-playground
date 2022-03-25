@@ -1,4 +1,4 @@
-﻿{
+{
     "version": 2,
     "configurePresets": [
         {
@@ -23,7 +23,13 @@
             "environment": {
                 "VCPKG_FEATURE_FLAGS": "manifests,versions,binarycaching,registries"
             },
-            "vendor": { "microsoft.com/VisualStudioSettings/CMake/1.0": { "hostOS": [ "Windows" ] } }
+            "vendor": {
+                "microsoft.com/VisualStudioSettings/CMake/1.0": {
+                    "hostOS": [
+                        "Windows"
+                    ]
+                }
+            }
         }
     ]
 }

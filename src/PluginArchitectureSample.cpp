@@ -1,4 +1,4 @@
-﻿#include <fmt/format.h>
+#include <fmt/format.h>
 #include <midi/midi.hpp>
 #include <module_load/exception.hpp>
 #include <module_load/module.hpp>
